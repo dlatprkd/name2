@@ -1,0 +1,345 @@
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+}
+a > .animation {
+    width: 100px;
+    height: 100%;
+    background: #5b4545;
+}
+a:hover{
+    cursor: pointer;
+}
+img{
+    vertical-align: top;
+}
+
+body, html{
+    display: flex;
+
+}
+.wrap{
+    width: 100%;
+    height: 160px;
+    background-color: #ffffff;
+}
+.logo{
+    margin-top: 2px;
+    width: 130px;
+    height: 80px;
+    float: left;
+}
+/* top */
+.top{
+    margin-left: 20px;
+    width: 650px;
+    height: 30px;
+    float: left;
+    
+}
+.top a{
+    text-align: center;
+    line-height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    display:inline-block
+    
+    
+}
+.top a:nth-child(1){
+width: 132px;
+}
+.top a:nth-child(2){
+width: 132px;
+}
+.top a:nth-child(3){
+width: 132px;
+}
+.top a:nth-child(4){
+width: 170px;
+}
+.top a:nth-child(1)::after{
+
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 64px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background-color: #5b4545;
+    transition: all .5s ease-out;
+}
+.top a:nth-child(1):hover::after{
+    width: 50%;
+}
+.top a:nth-child(2)::after{
+
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 64px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background-color: #5b4545;
+    transition: all .5s ease-out;
+}
+.top a:nth-child(2):hover::after{
+    width: 70%;
+}
+.top a:nth-child(3)::after{
+
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 70px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background-color: #5b4545;
+    transition: all .5s ease-out;
+}
+.top a:nth-child(3):hover::after{
+    width: 70%;
+}
+.top a:nth-child(4)::after{
+
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 84px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background-color: #5b4545;
+    transition: all .5s ease-out;
+}
+.top a:nth-child(4):hover::after{
+    width: 90%;
+}
+/* nav */
+.nav{
+    margin-left: 40px;
+    margin-top: 14px;
+    width: 1000px;
+    height: 30px;
+    float: left;
+}
+.nav > a{
+    height: 30px;
+    text-align: center; line-height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    display: inline-block;
+}
+.nav > a:nth-child(1){
+    width: 100px;
+} 
+.nav > a:nth-child(2){
+    width: 100px;
+} 
+.nav a:nth-child(-n+2):after{
+    
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background-color: #5b4545;
+    transition: all .5s ease-out;
+}
+.nav a:nth-child(-n+2):hover::after{
+    width: 70%;
+}
+.nav > a:nth-child(3){
+    width: 132px;
+} 
+.nav a:nth-child(3)::after{
+
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 64px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background-color: #5b4545;
+    transition: all .5s ease-out;
+}
+.nav a:nth-child(3):hover::after{
+    width: 80%;
+}
+.nav > a:nth-child(4){
+    width: 140px;
+} 
+.nav a:nth-child(4)::after{
+
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background-color: #5b4545;
+    transition: all .5s ease-out;
+}
+.nav a:nth-child(4):hover::after{
+    width: 84%;
+}
+.nav > a:nth-child(5){
+    width: 140px;
+} 
+.nav a:nth-child(5)::after{
+
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background-color: #5b4545;
+    transition: all .5s ease-out;
+}
+.nav a:nth-child(5):hover::after{
+    width: 70%;
+}
+.nav > a:nth-child(6){
+    width: 140px;
+}
+.nav a:nth-child(6)::after{
+
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background-color: #5b4545;
+    transition: all .5s ease-out;
+}
+.nav a:nth-child(6):hover::after{
+    width: 90%;
+}
+.nav > a:nth-child(7){
+    width: 140px;
+} 
+.nav a:nth-child(7)::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 1px;
+    background-color: #5b4545;
+    transition: all .5s ease-out;
+}
+.nav a:nth-child(7):hover::after{
+    width: 68%;
+}
+
+/* 로그인 */
+.sub1{
+    float: right;
+    align-items: center;
+}
+.check{
+    width: 120px;
+    height: 30px;
+    float: right;
+    font-size: 16px;
+    line-height: 30px;
+}
+#check{
+    line-height: 30px;
+}
+
+.sub1 > a{
+    width: 140px;
+    align-items: center;
+    position: relative;
+    height: 30px;
+    text-align: center; line-height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    z-index: 1;
+}
+.sub1 > a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background-color: #5b4545;
+    transition: all .5s ease-out;
+}
+.sub1 > a:hover::after{
+    width: 100%;
+}
+.sub1 > a:nth-child(3){
+    width: 100px;
+}
+
+
+
+
+.box{
+    margin-top: 50px;
+    float: right;
+    max-width: 400px;
+    width: 100%;
+}
+/* 검색창 */
+.box .search-box{
+    position: relative;
+    height: 50px;
+    max-width: 380px;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+.search-box input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.search-box .icon{
+    position: absolute;
+    right: -2px;
+    top: 0;
+    width: 50px;
+    background: #ffffff;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 0 25px 25px 0;
+}
+
+   
